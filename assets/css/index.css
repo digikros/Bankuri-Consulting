@@ -475,8 +475,9 @@ header::before {
   line-height: 20px;
   font-size: 14px;
   text-align: justify;
-  text-justify: distribute;
-  word-spacing: -2px;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  word-spacing: -0.05em;
 }
 
 @media (max-width: 992px) {
@@ -550,7 +551,9 @@ details[open] summary:after {
 details[open] p {
   text-align: justify;
   text-justify: distribute;
-  word-spacing: -2px;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  word-spacing: -0.05em;
   padding: 0.5em 1em;
 }
 
