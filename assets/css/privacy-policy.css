@@ -1,0 +1,99 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #040404;
+  color: #fff;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+
+  text-align: justify;
+}
+
+section,
+.pp-intro {
+  padding: 40px 68px;
+}
+
+h1 {
+  color: #18add2;
+  text-align: center;
+}
+h2 {
+  margin-bottom: 20px;
+}
+
+/*--------------------------------------------------------------
+# Section One
+--------------------------------------------------------------*/
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.item {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 15px;
+  display: flex;
+  align-items: flex-start;
+}
+.icon {
+  font-size: 24px;
+  margin-right: 15px;
+  min-width: 30px;
+}
+.content {
+  flex-grow: 1;
+}
+.title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.service {
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.description {
+  font-size: 0.9em;
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Section Two
+--------------------------------------------------------------*/
+
+dl {
+    margin-bottom: 2.5rem;
+}
+
+dt {
+    font-weight: 700;
+}
+
+dd {
+    padding-left: 1rem;
+}
+
+/*--------------------------------------------------------------
+# Owner Contact
+--------------------------------------------------------------*/
+
+.contact {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 15px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.contact img {
+  width: 3rem;
+}
